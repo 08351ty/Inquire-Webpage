@@ -1,0 +1,26 @@
+.nav {
+    background-color: transparent;
+}
+
+.nav a {
+    color: black;
+    font-size: 16px;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.panel2 p {
+    color: #333333;
+}
+
+.jumbotron {
+    background-image:url("http://files.parsetfss.com/80aff777-4743-4fc0-a4e8-aae7b5f40cd6/tfss-532ebc47-adcb-4a6e-99c4-4cdec6e8b8a8-jumbotron.png");
+    height: 610px;;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
