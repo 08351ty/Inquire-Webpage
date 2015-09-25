@@ -1,5 +1,6 @@
 .nav {
     background-color: transparent;
+    padding-top: 10px;
 }
 
 .nav a {
@@ -14,13 +15,34 @@
     display: inline;
 }
 
+.background-image {
+    height: 400px;
+    background-image: url("http://files.parsetfss.com/80aff777-4743-4fc0-a4e8-aae7b5f40cd6/tfss-532ebc47-adcb-4a6e-99c4-4cdec6e8b8a8-jumbotron.png");
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    }
+
+.panel1 h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.panel1 p {
+    text-align: left;
+    line-height: 36px;
+    font-size: 24px;
+}
+
 .panel2 p {
     color: #333333;
 }
 
 .jumbotron {
     background-image:url("http://files.parsetfss.com/80aff777-4743-4fc0-a4e8-aae7b5f40cd6/tfss-532ebc47-adcb-4a6e-99c4-4cdec6e8b8a8-jumbotron.png");
-    height: 610px;;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
